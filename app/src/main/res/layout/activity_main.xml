@@ -24,7 +24,7 @@
             android:background="#f00"
             android:textSize="24sp"
             android:textStyle="bold|italic"
-            android:gravity="right|bottom"
+            android:gravity="center"
             />
         <TextView
             android:layout_width="0dp"
