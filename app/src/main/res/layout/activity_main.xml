@@ -22,6 +22,9 @@
             android:layout_height="match_parent"
             android:text="red"
             android:background="#f00"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            android:gravity="right|bottom"
             />
         <TextView
             android:layout_width="0dp"
@@ -50,8 +53,31 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:orientation="vertical"
-        android:background="#0f0"
         >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#f00"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#0f0"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#00f"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#ff0"
+            />
 
     </LinearLayout>
 </LinearLayout>
